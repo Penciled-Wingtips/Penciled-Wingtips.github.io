@@ -1,0 +1,106 @@
+/* all things */
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+}
+
+/* ----class stuff---- */
+.white {
+	color: white;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+/* OH = on hover */
+.OHwhite:hover {
+	color: white;
+}
+
+.OHblue:hover {
+	color: blue;
+}
+
+.OHred:hover {
+	color: red;
+}
+
+.OHunderline:hover {
+	text-decoration: underline;
+}
+
+.OHline-through:hover {
+	text-decoration: line-through;
+}
+
+/* edit */
+
+header {
+	background-color: #666;
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+	height: 300px;
+}
+
+footer {
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+article.center {
+	float: left;
+	padding: 20px;
+	width: 100%;
+	background-color: #f1f1f1;
+	text-align: center;
+	height: 200px;
+}
+
+/* media */
+
+@media (max-width: 880px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
