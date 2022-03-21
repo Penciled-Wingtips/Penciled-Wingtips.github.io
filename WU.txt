@@ -1,0 +1,20 @@
+Things you can do it by the website builder:
+
+class=""
+
+--Only works when JavaScript is enabled--
+rainbow
+
+--Style sheet stuff--
+javascript-disabled
+white
+red
+green
+blue
+underline
+line-through
+OHwhite
+OHblue
+OHred
+OHunderline
+OHline-through
