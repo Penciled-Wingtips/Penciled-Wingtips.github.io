@@ -1,0 +1,21 @@
+.center {
+	text-align: center
+}
+
+.right {
+	text-align: right
+}
+
+.left {
+	text-align: left
+}
+
+.logo {
+	height: 10%;
+}
+
+a.backButton {
+	color: red;
+	font-size: 35px;
+	text-decoration: none;
+}
